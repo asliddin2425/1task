@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div>BrandNmae</div>
-            <div>
-                <ul>
+    <header class="body">
+        <nav class="container">
+            <div class="logo">BrandNmae</div>
+            <div">
+                <ul class="items">
                     <li>
                         <a href="">
                             <span>Home</span>
@@ -37,13 +37,13 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="auth">
                 <button>Login</button>
                 <button>Join US</button>
         </nav>
-
-    <div>
-        <div>
+    </header>
+    <section class="hero">
+        <div class="`">
             <h5>Welcome</h5>
     
     
@@ -51,29 +51,32 @@
             <h4>We know how large objects will act, but thing on a small scale just do not act that way </h4>
             <button>Get quoete Now</button> 
             <button>Learn More</button>    
-        </div>        
-        <div>
-            <div>
+        </div> 
+    </section>       
+        <section class="courese">
+            <div class="container">
+            <div class="card">
                 <img src="smile.png" alt="smile">
                 <h3>training course</h3>
                 <p>The gradual accumulation of information about atomic and small-scale behaviour...</p>
             </div>
-            <div>    
+            </div>
+            <div class="icon">    
                 
                 <img src="checkbox.png" alt="checkbox">
                 <h3>2,769 online courses </h3>
                 <p>The gradual accumulation of information about atomic and small-scale behaviour...</p>
             </div>
-            <div>    
+            <div class="feature-card">    
                 <img src="card.png" alt="card">
                 <h3>training courses</h3>
                 <p>The gradual accumulation of information about atomic and small-scale behaviour...</p>
             </div>
-        </div>    
+        </section>    
 
     
     </div>
-    </header>
+    
     <main>
         <div>
             <div>
@@ -270,7 +273,7 @@
             </div>
 
         </div>
-        <div>
+        <div class="product-listing">
             <div>
                 <div>
                     <div>
@@ -282,9 +285,9 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <div>
+            <div class="products">
+                <div product-card>
+                    <div product-image>
                         <img src="woman1.png" alt="image">
                     </div>
                 </div>
@@ -356,19 +359,10 @@
         </div>
     </main>
     <footer>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <text>Made With Love By Figmaland All Right Reserved </text>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <div>
-                    <div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-clomn h4" >
                         <h3>Get in Touch</h3>
                         <p>the quick fox jumps over the lazy dog</p>
                         <div>
@@ -389,7 +383,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="fotter-column">
                         <h3>Company info</h3>
                         <div>
                            <a href="">About Us</a> 
@@ -398,7 +392,7 @@
                             <a href="">Blog</a>
                         </div>
                     </div>
-                    <div>
+                    <div class="footer-column">
                         <h3>Features</h3>
                         <div>
                             <a href="">Business Marketing</a>
@@ -407,7 +401,7 @@
                             <a href="">Unlimited Support</a> 
                         </div>
                     </div>
-                    <div>
+                    <div footer-column>
                         <h3>Resources</h3>
                         <div>
                             <a href="">IOS & Android</a>
